@@ -5,14 +5,17 @@
 #include ".xrdb/color/nord"
 #include ".xrdb/rofi/nord"
 #include ".xrdb/dmenu/nord"
-#include ".xrdb/fonts/tewi"
+! #include ".xrdb/fonts/tewi"
+! #include ".xrdb/fonts/mplus"
+#include ".xrdb/fonts/fantasque"
 
 ! ------------------------------------------------------------------------------
 ! URxvt configs
 ! ------------------------------------------------------------------------------
 
-URxvt.geometry: 		72x18
-URxvt*letterSpace: 	    0
+! URxvt.geometry: 		72x18
+URxvt.geometry: 		179x50
+URxvt*letterSpace:      -1      ! 减小字体的间距
 URxvt.lineSpace: 		0
 URxvt*internalBorder:   24
 URxvt*externalBorder:   0
@@ -25,9 +28,15 @@ URxvt*scrollBar_right:  false
 URxvt.perl-ext-common:  default,clipboard,url-select,keyboard-select
 URxvt.copyCommand:      xclip -i -selection clipboard
 URxvt.pasteCommand:     xclip -o -selection clipboard
-URxvt.keysym.M-c:       perl:clipboard:copy
-URxvt.keysym.M-v:       perl:clipboard:paste
-URxvt.keysym.M-C-v:     perl:clipboard:paste_escaped
+
+! URxvt.keysym.M-c:       perl:clipboard:copy
+! URxvt.keysym.M-v:       perl:clipboard:paste
+! URxvt.keysym.M-C-v:     perl:clipboard:paste_escaped
+
+URxvt.keysym.M-C-c:       perl:clipboard:copy
+URxvt.keysym.M-C-v:       perl:clipboard:paste
+! URxvt.keysym.S-C-v:     perl:clipboard:paste_escaped
+
 URxvt.keysym.M-Escape:  perl:keyboard-select:activate
 URxvt.keysym.Shift-Up:	command:\033]720;1\007
 URxvt.keysym.Shift-Down:command:\033]721;1\007

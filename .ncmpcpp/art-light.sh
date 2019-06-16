@@ -1,6 +1,7 @@
 #!/bin/bash
 
-MUSIC_DIR=/media/addy/Media/musik/
+# MUSIC_DIR=/media/addy/Media/musik/
+MUSIC_DIR=/home/repl/Music/
 
 COVER=/tmp/cover.jpg
 

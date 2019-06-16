@@ -1,0 +1,22 @@
+! Font
+URxvt*font:				xft:FantasqueSansMono Nerd Font Mono:regular:size=14, \
+                  xft:WenQuanyi Micro Hei:antialias=true:pixelsize=20:style=Regular:minspace=True, \
+                  xft:Bitstream Vera Sans Mono-18, \
+                  xft:WenQuanYi Bitmap Song-18, \
+                  xft:Hack Nerd Font:style=Regular, \
+                  xft:M+ 1mn:regular:size=14
+
+URxvt*boldFont:			xft:FantasqueSansMono Nerd Font Mono:bold:size=14, \
+                    xft:FantasqueSansMono Nerd Font Mono:size=14:style=Bold, \
+                    xft:WenQuanyi Zen Hei:style=Medium:pixelsize=20:minspace=True, \
+                    xft:Bitstream Vera Sans Mono-18:Bold, \
+                    xft:WenQuanYi Bitmap Song-18:Bold, \
+                    xft:DejaVu Sans Mono:pixelsize=18:style=Bold:antialias=false, \
+                    xft:WenQuanYi Bitmap Song:pixelsize=18:style=Bold:antialias=false, \
+                    xft:M+ 1mn:bold:size=14
+
+URxvt*italicFont:		xft:FantasqueSansMono Nerd Font Mono:italic:size=14, \
+                    xft:M+ 1mn:italic:size=14
+
+URxvt*boldItalicFont:	xft:FantasqueSansMono Nerd Font Mono:bold italic:size=14, \
+                      xft:M+ 1mn:bold italic:size=14
