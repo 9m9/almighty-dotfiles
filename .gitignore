@@ -1,0 +1,5 @@
+.mpd/mpd.log
+.mpd/mpd.pid
+.mpd/mpdstate
+.mpd/mpd.db
+.ncmpcpp/error.log
